@@ -1,0 +1,14 @@
+.card embed{
+    border: 2px solid rgb(94, 189, 94);
+    overflow-y: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    border-radius: 7px;
+}
+.card embed::-webkit-scrollbar{
+    display: none;
+}
+
+body .card{
+    display: inline-block;
+}

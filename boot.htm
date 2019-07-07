@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type = "text/css" href="boot.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark myNav">
+        <div class="navbar-brand navLeftTitle"><strong><span>PORT</span>FOLIO</strong></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navRight" id="collapsibleNavbar">
+          <ul class="navbar-nav navRight">
+            <li class="nav-item">
+              <a class="nav-link" href="projects.htm"><strong>PROJECTS</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="writings.htm"><strong>WRITINGS</strong></a>
+            </li>
+          </ul>
+        </div>  
+    </nav>
+      
+    <div class="first-container">
+        <div class="introDiv">
+            <div class="introLeft">
+                <div class="card" style="width: 250px;">
+                    <div class="card-body" style="height: 250px;">
+                        <img class="card-img-top" src="pic/PSX_20190423_145105-min.jpg" alt="Profile Pic">
+                    </div>
+                    <div class="card-footer bg-dark text-white" style="text-align: center;cursor:default;">
+                        Developer | Designer
+                    </div>
+                </div>
+            </div>
+            <div class="introRight bg-dark">
+                <strong>
+                    <span>NAME : </span> SOUMENDU DAS</br>
+                    <span>EXPERIENCE : </span> FRESHER</br>
+                    <span>MOTTO : </span>"I have promises to keep,
+                    And miles to go before I sleep."
+                </strong>
+                </br>
+                
+            </div>
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="row contact">
+            <div class="col-lg-3 col-sm-12" 
+            style="
+                display: flex;
+                justify-content:center;
+            ">
+                <span class="badge badge-primary">
+                    <a href="https://www.linkedin.com/in/soumendu-das-54517b136/" data-toggle="tooltip" title="LinkedIn"><i class="fa fa-linkedin fa-5x"></i></a>
+                </span>
+                <span class="badge badge-dark">
+                    <a href="https://github.com/soumendudas22" data-toggle="tooltip" title="GitHub"><i class="fa fa-github fa-5x"></i></a>
+                </span>
+                <span class="badge badge-primary">
+                    <a href="https://twitter.com/soumendudas2208" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter fa-5x"></i></a>
+                </span>
+            </div>
+            <div class="col-lg-7 col-sm-12 qualification">
+                <div class="card" style="width: 250px;">
+                    <div class="card-header bg-dark"><strong>B.TECH-ETC</strong></div>
+                    <div class="card-body"><strong>8.23/10</strong></div>
+                    <div class="card-footer bg-dark">
+                        <strong>KIIT University</br>Bhubneswar</strong>
+                    </div>
+                </div>
+                <div class="card" style="width: 250px;">
+                    <div class="card-header bg-dark"><strong>XII</strong></div>
+                    <div class="card-body"><strong>87.4%</strong></div>
+                    <div class="card-footer bg-dark"><strong>D.A.V Public School,Midnapore</strong></div>
+                </div>
+                <div class="card" style="width: 250px;">
+                    <div class="card-header bg-dark"><strong>X</strong></div>
+                    <div class="card-body"><strong>10/10</strong></div>
+                    <div class="card-footer bg-dark"><strong>D.A.V Public School,Midnapore</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-part bg-dark">
+        Designed and developed for informational purposes only.
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</body>
+</html>
