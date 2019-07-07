@@ -1,14 +1,16 @@
-.card embed{
-    border: 2px solid rgb(94, 189, 94);
-    overflow-y: hidden;
-    overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
-    border-radius: 7px;
-}
-.card embed::-webkit-scrollbar{
-    display: none;
+.boxes a{
+    text-decoration: none;
+    text-align: center;
 }
 
-body .card{
+.boxes a .childbox{
+    color: white;
+    background-color: rgb(94, 189, 94);
+    width: 250px;
+    height: 250px;
+    font-size: 4rem;
     display: inline-block;
+    border-radius: 7px;
+    margin: 10px;
+    padding-top: 65px;
 }
