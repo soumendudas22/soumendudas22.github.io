@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-family: 'Blinker', sans-serif;
+}
+
+body{
+    background-color: #141414;
+}
+
+#title{
+    font-size: 10vw;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #eec643;
+}
+#title span{
+    color: white;
+    font-size: 5vw;
+}
+
+.subtitle{
+    font-size: 3vw;
+    margin-top: 10px;
+    color: #fffd82;
+    margin-bottom: 5vw;
+}
+
+#img-div{
+    padding: 0px 0px 1vw 0px;
+    margin: 0;
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#img-caption center q{
+    font-size: 4vw;
+    color: #eec643;
+    margin-bottom: 20px;
+}
+
+#tribute-info center h1{
+    color: #eec643;
+}
+
+#tribute-info p{
+    color: white;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+#main center a h1{
+    text-decoration: none;
+    color: white;
+}
+#main center h1{
+    color: #eec643;
+}
